@@ -1,7 +1,7 @@
 var playlist = {
-  bSpears: 'Oops I Did It Again',
-  nSync: 'Bye Bye Bye',
-  bBoys: 'Back Street`s Back'
+  bSpears: 'Slowdive',
+  nSync: 'My Bloody Valentine',
+  bBoys: 'Phil Ochs'
 }
 
 function updatePlaylist (playlist, artistName, songTitle) {
