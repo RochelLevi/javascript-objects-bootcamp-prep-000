@@ -1,11 +1,11 @@
 var playlist = {
-  bSpears: 'Slowdive',
-  nSync: 'My Bloody Valentine',
-  bBoys: 'Phil Ochs'
+  bSpears: 'Oops I Did It Again',
+  nSync: 'Bye Bye Bye',
+  bBoys: 'Back Street`s Back'
 }
 
-function updatePlaylist (playlist, artistName, songTitle) {
-  return Object.assign({}, playlist, {[artistName]: songTitle})
+function updatePlaylist (playlistName, artistName, songTitle) {
+  return playlist.assign({}, playlist, {[artistName]: songTitle})
 }
 
 function removeFromPlaylist(playlist, artist) {
