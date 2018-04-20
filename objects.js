@@ -4,7 +4,7 @@ var playlist = {
   bBoys: 'Back Street`s Back'
 }
 
-function updatePlaylist (playlistName, artistName, songTitle) {
+function updatePlaylist (playlist, artistName, songTitle) {
     return playlist.assign({}, playlistName, { [artistName]: songTitle })
 }
 
